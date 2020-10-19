@@ -48,6 +48,76 @@ collections:
     editor:
       preview: false
     files:
+      - name: "geo_cities"
+        label: "Geo cities"
+        file: "meta/geo_cities.json"
+        description: "List of cities"
+        fields:
+          - name: cities
+            label: Citites
+            label_singular: "City"
+            summary: "{{fields.name}}"
+            widget: list
+            min: 10
+            max: 50
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "number"
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Timezone"
+                name: "timezone"
+                widget: "string"
+      - name: "rosbilet_cities"
+        label: "Rosbilet cities"
+        file: "meta/rosbilet_cities.json"
+        description: "List of cities"
+        fields:
+          - name: cities
+            label: Citites
+            label_singular: "City"
+            summary: "{{fields.name}}"
+            widget: list
+            min: 10
+            max: 50
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "number"
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Timezone"
+                name: "timezone"
+                widget: "string"
+      - name: "rosbilet_matching"
+        label: "Rosbilet Matching"
+        file: "meta/rosbilet.json"
+        description: "Rosbilet Matching description"
+        fields:
+          - name: matching
+            label: Matching
+            summary: "{{fields.geo_id}}"
+            widget: list
+            fields:
+              - label: "Supplier"
+                name: "supplier"
+                widget: "string"
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: GeoID
+                name: "geo_id"
+                widget: relation
+                collection: "meta"
+                file: "geo_cities"
+                searchFields:
+                  - "cities.*.name"
+                displayFields:
+                  - "cities.*.name"
+                valueField: "cities.*.id"
       - name: "cities"
         label: "Cities"
         file: "meta/cities.yml"
@@ -165,76 +235,3 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-
-  - name: "geo_cities"
-    label: "GeoCities"
-    delete: false
-    editor:
-      preview: false
-    description: "Геобаза Атласа"
-    files:
-      - name: cities
-        label: GeoCities
-        file: "meta/geo_cities.json"
-        label_singular: "GeoCity"
-        widget: list
-        fields:
-          - label: "ID"
-            name: "id"
-            widget: "number"
-          - label: "Name"
-            name: "name"
-            widget: "string"
-          - label: "Timezone"
-            name: "timezone"
-            widget: "string"
-
-  - name: "rosbilet_cities"
-    label: "RosbiletCities"
-    delete: false
-    editor:
-      preview: false
-    description: "Геобаза Росбилета"
-    files:
-      - name: cities
-        label: RosbiletCities
-        file: "meta/rosbilet_cities.json"
-        label_singular: "RosbiletCity"
-        widget: list
-        fields:
-          - label: "ID"
-            name: "id"
-            widget: "number"
-          - label: "Name"
-            name: "name"
-            widget: "string"
-          - label: "Timezone"
-            name: "timezone"
-            widget: "string"
-
-  - name: "rosbilet_matching"
-    label: "Rosbilet Matching"
-    folder: "src/pages/matching"
-    extension: "mdx"
-    format: "frontmatter"
-    create: true
-    slug: "{{supplier}}_{{geo_id}}"
-    identifier_field: slug
-    summary: "{{supplier}} => {{geo_id}}"
-    fields:
-      - label: "Supplier"
-        name: "supplier"
-        widget: "string"
-      - label: "Name"
-        name: "name"
-        widget: "string"
-      - label: GeoID
-        name: "geo_id"
-        widget: relation
-        collection: "geo_cities"
-        file: "cities"
-        searchFields:
-          - "cities.*.name"
-        displayFields:
-          - "cities.*.name"
-        valueField: "cities.*.id"
