@@ -48,6 +48,32 @@ collections:
     editor:
       preview: false
     files:
+      - name: "cities"
+        label: "Cities"
+        file: "meta/cities.yml"
+        description: "Atlas cities"
+        fields:
+          - name: cities
+            label: Cities
+            label_singular: "City"
+            widget: list
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "number"
+                hint: "ID города"
+              - label: "Country code"
+                name: "countryCode"
+                widget: "string"
+                hint: "Код страны"
+              - label: "City"
+                name: "city"
+                widget: "string"
+                hint: "Имя города"
+              - label: "Timezone"
+                name: "timezone"
+                widget: "string"
+                hint: "Таймзона"
       - name: "authors"
         label: "Authors"
         file: "meta/authors.yml"

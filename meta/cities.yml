@@ -1,0 +1,10 @@
+cities:
+  - id: 1
+    countryCode: RU
+    city: Сосновка
+    timezone: Europe/Moscow
+  - id: 2
+    countryCode: RU
+    city: Москва
+    timezone: Europe/Moscow
+
