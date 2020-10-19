@@ -1,0 +1,977 @@
+{
+  "cities": [
+    {
+      "admin1_id": 554667,
+      "admin1_name": {
+        "en": "Kabardino-Balkariya Republic",
+        "ru": "Республика Кабардино-Балкария"
+      },
+      "alternate_names": [
+        "Заюково",
+        "Zayukovo"
+      ],
+      "country": "RU",
+      "id": 463966,
+      "latitude": 43.61611,
+      "localized_name": {
+        "en": "Zayukovo",
+        "ru": "Заюково"
+      },
+      "longitude": 43.33389,
+      "name": "Заюково",
+      "population": 10559,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 559838,
+      "admin1_name": {
+        "en": "Nizhny Novgorod Oblast",
+        "ru": "Нижегородская область"
+      },
+      "alternate_names": [
+        "Zavolzh'ye",
+        "Заволжье"
+      ],
+      "country": "RU",
+      "id": 464101,
+      "latitude": 56.64051,
+      "localized_name": {
+        "en": "Zavolzh'ye",
+        "ru": "Заволжье"
+      },
+      "longitude": 43.39446,
+      "name": "Заволжье",
+      "population": 42900,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 555235,
+      "admin1_name": {
+        "en": "Ivanovskaya Oblast’",
+        "ru": "Ивановская область"
+      },
+      "alternate_names": [
+        "Zavolzhsk",
+        "Заволжск"
+      ],
+      "country": "RU",
+      "id": 464112,
+      "latitude": 57.4823,
+      "localized_name": {
+        "be": "Заволжск",
+        "en": "Zavolzhsk",
+        "ru": "Заволжск"
+      },
+      "longitude": 42.13779,
+      "name": "Заволжск",
+      "population": 12847,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 501165,
+      "admin1_name": {
+        "en": "Rostov Oblast",
+        "ru": "Ростовская область"
+      },
+      "alternate_names": [
+        "Zavetnoye",
+        "Заветное"
+      ],
+      "country": "RU",
+      "id": 464179,
+      "latitude": 47.11944,
+      "localized_name": {
+        "en": "Zavetnoye",
+        "ru": "Заветное"
+      },
+      "longitude": 43.89028,
+      "name": "Заветное",
+      "population": 6711,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 511555,
+      "admin1_name": {
+        "en": "Penzenskaya Oblast’",
+        "ru": "Пензенская область"
+      },
+      "alternate_names": [
+        "Zarechnyy",
+        "Заречный"
+      ],
+      "country": "RU",
+      "id": 464625,
+      "latitude": 53.20356,
+      "localized_name": {
+        "en": "Zarechnyy",
+        "ru": "Заречный"
+      },
+      "longitude": 45.19227,
+      "name": "Заречный",
+      "population": 63579,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 524925,
+      "admin1_name": {
+        "be": "Маскоўская вобласць",
+        "en": "Moscow Oblast",
+        "pl": "Obwód moskiewski",
+        "ru": "Московская область"
+      },
+      "alternate_names": [
+        "Zaraysk",
+        "Зарайск"
+      ],
+      "country": "RU",
+      "id": 464687,
+      "latitude": 54.7605,
+      "localized_name": {
+        "en": "Zaraysk",
+        "ru": "Зарайск"
+      },
+      "longitude": 38.87841,
+      "name": "Зарайск",
+      "population": 24637,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 524925,
+      "admin1_name": {
+        "be": "Маскоўская вобласць",
+        "en": "Moscow Oblast",
+        "pl": "Obwód moskiewski",
+        "ru": "Московская область"
+      },
+      "alternate_names": [
+        "Zaprudnya",
+        "Запрудня"
+      ],
+      "country": "RU",
+      "id": 464708,
+      "latitude": 56.56667,
+      "localized_name": {
+        "en": "Zaprudnya",
+        "ru": "Запрудня"
+      },
+      "longitude": 37.43333,
+      "name": "Запрудня",
+      "population": 12517,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 524304,
+      "admin1_name": {
+        "en": "Murmansk Oblast",
+        "pl": "Obwód murmański",
+        "ru": "Мурманская область"
+      },
+      "alternate_names": [
+        "Zapolyarnyy",
+        "Заполярный"
+      ],
+      "country": "RU",
+      "id": 464790,
+      "latitude": 69.41541,
+      "localized_name": {
+        "en": "Zapolyarnyy",
+        "ru": "Заполярный"
+      },
+      "longitude": 30.81355,
+      "name": "Заполярный",
+      "population": 17789,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 524894,
+      "admin1_name": {
+        "en": "Moscow",
+        "ru": "Москва"
+      },
+      "alternate_names": [
+        "Зам\u043eскворечье"
+      ],
+      "country": "RU",
+      "id": 465057,
+      "latitude": 55.73333,
+      "localized_name": {
+        "en": "Zamoskvorech’ye",
+        "ru": "Замоскворечье"
+      },
+      "longitude": 37.63333,
+      "name": "Замоскворечье",
+      "population": 55000,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 484048,
+      "admin1_name": {
+        "en": "Tatarstan Republic",
+        "ru": "Республика Татарстан"
+      },
+      "alternate_names": [
+        "Zainsk",
+        "Заинск"
+      ],
+      "country": "RU",
+      "id": 465543,
+      "latitude": 55.3195,
+      "localized_name": {
+        "be": "Заінск",
+        "en": "Zainsk",
+        "ru": "Заинск"
+      },
+      "longitude": 52.06942,
+      "name": "Заинск",
+      "population": 42044,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 535120,
+      "admin1_name": {
+        "en": "Lipetsk Oblast",
+        "ru": "Липецкая область"
+      },
+      "alternate_names": [
+        "Zadonsk",
+        "Задонск"
+      ],
+      "country": "RU",
+      "id": 465726,
+      "latitude": 52.3904,
+      "localized_name": {
+        "be": "Задонск",
+        "en": "Zadonsk",
+        "ru": "Задонск"
+      },
+      "longitude": 38.9261,
+      "name": "Задонск",
+      "population": 10326,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 567293,
+      "admin1_name": {
+        "be": "Дагестан",
+        "en": "Dagestan Republic",
+        "pl": "Dagestan",
+        "ru": "Республика Дагестан"
+      },
+      "alternate_names": [
+        "Yuzhno-Sukhokumsk",
+        "Южно-Сухокумск"
+      ],
+      "country": "RU",
+      "id": 466060,
+      "latitude": 44.65811,
+      "localized_name": {
+        "be": "Южна-Сухакумск",
+        "en": "Yuzhno-Sukhokumsk",
+        "ru": "Южно-Сухокумск"
+      },
+      "longitude": 45.6436,
+      "name": "Южно-Сухокумск",
+      "population": 10665,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 555235,
+      "admin1_name": {
+        "en": "Ivanovskaya Oblast’",
+        "ru": "Ивановская область"
+      },
+      "alternate_names": [
+        "Yuzha",
+        "Южа"
+      ],
+      "country": "RU",
+      "id": 466084,
+      "latitude": 56.58306,
+      "localized_name": {
+        "en": "Yuzha",
+        "ru": "Южа"
+      },
+      "longitude": 42.01222,
+      "name": "Южа",
+      "population": 14678,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 1508290,
+      "admin1_name": {
+        "en": "Chelyabinsk Oblast",
+        "ru": "Челябинская область"
+      },
+      "alternate_names": [
+        "Yuryuzan'",
+        "Юрюзань"
+      ],
+      "country": "RU",
+      "id": 466200,
+      "latitude": 54.86333,
+      "localized_name": {
+        "en": "Yuryuzan'",
+        "ru": "Юрюзань"
+      },
+      "longitude": 58.42194,
+      "name": "Юрюзань",
+      "population": 13424,
+      "timezone": "Asia/Yekaterinburg"
+    },
+    {
+      "admin1_id": 826294,
+      "admin1_name": {
+        "en": "Vladimirskaya Oblast’",
+        "ru": "В\u043bадимирская область"
+      },
+      "alternate_names": [
+        "Юрьев-Польский"
+      ],
+      "country": "RU",
+      "id": 466215,
+      "latitude": 56.50339,
+      "localized_name": {
+        "en": "Yur’yev-Pol’skiy",
+        "ru": "Юрьев-Польский"
+      },
+      "longitude": 39.67911,
+      "name": "Юрьев-Польский",
+      "population": 19906,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 555235,
+      "admin1_name": {
+        "en": "Ivanovskaya Oblast’",
+        "ru": "Ивановская область"
+      },
+      "alternate_names": [
+        "Юрьевец"
+      ],
+      "country": "RU",
+      "id": 466258,
+      "latitude": 57.32007,
+      "localized_name": {
+        "en": "Yur’yevets",
+        "ru": "Юрьевец"
+      },
+      "longitude": 43.1041,
+      "name": "Юрьевец",
+      "population": 11488,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 529352,
+      "admin1_name": {
+        "en": "Mariy-El Republic",
+        "ru": "Республика Марий Эл"
+      },
+      "alternate_names": [
+        "Yoshkar-Ola",
+        "Joszkar-Oła",
+        "Йошкар-Ола"
+      ],
+      "country": "RU",
+      "id": 466806,
+      "latitude": 56.63877,
+      "localized_name": {
+        "en": "Yoshkar-Ola",
+        "pl": "Joszkar-Oła",
+        "ru": "Йошкар-Ола"
+      },
+      "longitude": 47.89078,
+      "name": "Йошкар-Ола",
+      "population": 279100,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 542415,
+      "admin1_name": {
+        "en": "Krasnodarskiy Kray",
+        "ru": "Краснодарский край"
+      },
+      "alternate_names": [
+        "Yeysk",
+        "Jejsk",
+        "Ейск"
+      ],
+      "country": "RU",
+      "id": 466885,
+      "latitude": 46.7055,
+      "localized_name": {
+        "be": "Ейск",
+        "en": "Yeysk",
+        "pl": "Jejsk",
+        "ru": "Ейск"
+      },
+      "longitude": 38.2739,
+      "name": "Ейск",
+      "population": 87814,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 487839,
+      "admin1_name": {
+        "en": "Stavropol’ Kray",
+        "ru": "Ставропольский край"
+      },
+      "alternate_names": [
+        "Yessentukskaya",
+        "Ессентукская"
+      ],
+      "country": "RU",
+      "id": 466989,
+      "latitude": 44.0328,
+      "localized_name": {
+        "en": "Yessentukskaya",
+        "ru": "Ессентукская"
+      },
+      "longitude": 42.8813,
+      "name": "Ессентукская",
+      "population": 19956,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 487839,
+      "admin1_name": {
+        "en": "Stavropol’ Kray",
+        "ru": "Ставропольский край"
+      },
+      "alternate_names": [
+        "Yessentuki",
+        "Ессентуки"
+      ],
+      "country": "RU",
+      "id": 466990,
+      "latitude": 44.04444,
+      "localized_name": {
+        "en": "Yessentuki",
+        "ru": "Ессентуки"
+      },
+      "longitude": 42.86056,
+      "name": "Ессентуки",
+      "population": 81015,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 498671,
+      "admin1_name": {
+        "en": "Saratovskaya Oblast",
+        "ru": "Саратовская область"
+      },
+      "alternate_names": [
+        "Yershov",
+        "Ершов"
+      ],
+      "country": "RU",
+      "id": 467120,
+      "latitude": 51.3513,
+      "localized_name": {
+        "be": "Яршоў",
+        "en": "Yershov",
+        "ru": "Ершов"
+      },
+      "longitude": 48.2766,
+      "name": "Ершов",
+      "population": 23681,
+      "timezone": "Europe/Saratov"
+    },
+    {
+      "admin1_id": 553899,
+      "admin1_name": {
+        "en": "Kaluzhskaya Oblast’",
+        "ru": "Калужская область"
+      },
+      "alternate_names": [
+        "Yermolino",
+        "Ермолино"
+      ],
+      "country": "RU",
+      "id": 467238,
+      "latitude": 55.19489,
+      "localized_name": {
+        "en": "Yermolino",
+        "ru": "Ермолино"
+      },
+      "longitude": 36.59513,
+      "name": "Ермолино",
+      "population": 10100,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 545854,
+      "admin1_name": {
+        "be": "Рэспубліка Комі",
+        "en": "Komi Republic",
+        "pl": "Republika Komi",
+        "ru": "Республика Коми"
+      },
+      "alternate_names": [
+        "Yemva",
+        "Железнодорожный",
+        "Емва"
+      ],
+      "country": "RU",
+      "id": 467525,
+      "latitude": 62.58999,
+      "localized_name": {
+        "en": "Yemva",
+        "ru": "Емва"
+      },
+      "longitude": 50.85939,
+      "name": "Емва",
+      "population": 16404,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 581043,
+      "admin1_name": {
+        "en": "Arkhangelskaya oblast",
+        "ru": "Архангельская область"
+      },
+      "alternate_names": [
+        "Емецк"
+      ],
+      "country": "RU",
+      "id": 467539,
+      "latitude": 63.47191,
+      "localized_name": {
+        "en": "Yemetsk",
+        "ru": "Емецк"
+      },
+      "longitude": 41.78023,
+      "name": "Емецк",
+      "population": 12000,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 491684,
+      "admin1_name": {
+        "en": "Smolenskaya Oblast’",
+        "ru": "Смоленская область"
+      },
+      "alternate_names": [
+        "Yel'nya",
+        "Ельня"
+      ],
+      "country": "RU",
+      "id": 467753,
+      "latitude": 54.57864,
+      "localized_name": {
+        "en": "Yel'nya",
+        "ru": "Ельня"
+      },
+      "longitude": 33.18373,
+      "name": "Ельня",
+      "population": 10050,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 542415,
+      "admin1_name": {
+        "en": "Krasnodarskiy Kray",
+        "ru": "Краснодарский край"
+      },
+      "alternate_names": [
+        "Yelizavetinskaya",
+        "Елизаветинская"
+      ],
+      "country": "RU",
+      "id": 467854,
+      "latitude": 45.04616,
+      "localized_name": {
+        "en": "Yelizavetinskaya",
+        "ru": "Елизаветинская"
+      },
+      "longitude": 38.79491,
+      "name": "Елизаветинская",
+      "population": 19306,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 535120,
+      "admin1_name": {
+        "en": "Lipetsk Oblast",
+        "ru": "Липецкая область"
+      },
+      "alternate_names": [
+        "Yelets",
+        "Елец",
+        "Jelec"
+      ],
+      "country": "RU",
+      "id": 467978,
+      "latitude": 52.62366,
+      "localized_name": {
+        "be": "Ялец",
+        "en": "Yelets",
+        "pl": "Jelec",
+        "ru": "Елец"
+      },
+      "longitude": 38.50169,
+      "name": "Елец",
+      "population": 115688,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 472755,
+      "admin1_name": {
+        "en": "Volgograd Oblast",
+        "ru": "Волгоградская область"
+      },
+      "alternate_names": [
+        "Yelan'",
+        "Елань"
+      ],
+      "country": "RU",
+      "id": 468063,
+      "latitude": 50.949,
+      "localized_name": {
+        "en": "Yelan'",
+        "ru": "Елань"
+      },
+      "longitude": 43.73781,
+      "name": "Елань",
+      "population": 15181,
+      "timezone": "Europe/Volgograd"
+    },
+    {
+      "admin1_id": 484048,
+      "admin1_name": {
+        "en": "Tatarstan Republic",
+        "ru": "Республика Татарстан"
+      },
+      "alternate_names": [
+        "Yelabuga",
+        "Елабуга"
+      ],
+      "country": "RU",
+      "id": 468082,
+      "latitude": 55.76127,
+      "localized_name": {
+        "en": "Yelabuga",
+        "ru": "Елабуга"
+      },
+      "longitude": 52.06493,
+      "name": "Елабуга",
+      "population": 72643,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 524925,
+      "admin1_name": {
+        "be": "Маскоўская вобласць",
+        "en": "Moscow Oblast",
+        "pl": "Obwód moskiewski",
+        "ru": "Московская область"
+      },
+      "alternate_names": [
+        "Yegor'yevsk",
+        "Егорьевск",
+        "Egorievsk"
+      ],
+      "country": "RU",
+      "id": 468250,
+      "latitude": 55.38283,
+      "localized_name": {
+        "en": "Yegor'yevsk",
+        "ru": "Егорьевск"
+      },
+      "longitude": 39.03233,
+      "name": "Егорьевск",
+      "population": 85200,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 501165,
+      "admin1_name": {
+        "en": "Rostov Oblast",
+        "ru": "Ростовская область"
+      },
+      "alternate_names": [
+        "Yegorlykskaya",
+        "Егорлыкская"
+      ],
+      "country": "RU",
+      "id": 468307,
+      "latitude": 46.56564,
+      "localized_name": {
+        "en": "Yegorlykskaya",
+        "ru": "Егорлыкская"
+      },
+      "longitude": 40.65621,
+      "name": "Егорлыкская",
+      "population": 17978,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 480508,
+      "admin1_name": {
+        "en": "Tul’skaya Oblast’",
+        "ru": "Тульская область"
+      },
+      "alternate_names": [
+        "Yefremov",
+        "Ефремов",
+        "Jefriemow"
+      ],
+      "country": "RU",
+      "id": 468390,
+      "latitude": 53.14806,
+      "localized_name": {
+        "en": "Yefremov",
+        "pl": "Jefriemow",
+        "ru": "Ефремов"
+      },
+      "longitude": 38.09924,
+      "name": "Ефремов",
+      "population": 45497,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 511180,
+      "admin1_name": {
+        "be": "Пермскі край",
+        "en": "Perm Krai",
+        "pl": "Kraj Permski",
+        "ru": "Пермский край"
+      },
+      "alternate_names": [
+        "Яйва"
+      ],
+      "country": "RU",
+      "id": 468560,
+      "latitude": 59.3347,
+      "localized_name": {
+        "en": "Yayva",
+        "ru": "Яйва"
+      },
+      "longitude": 57.2592,
+      "name": "Яйва",
+      "population": 10615,
+      "timezone": "Asia/Yekaterinburg"
+    },
+    {
+      "admin1_id": 515001,
+      "admin1_name": {
+        "en": "Orenburg Oblast",
+        "ru": "Оренбургская область"
+      },
+      "alternate_names": [
+        "Yasnyy",
+        "Ясный"
+      ],
+      "country": "RU",
+      "id": 468657,
+      "latitude": 51.0333,
+      "localized_name": {
+        "en": "Yasnyy",
+        "ru": "Ясный"
+      },
+      "longitude": 59.8742,
+      "name": "Ясный",
+      "population": 17359,
+      "timezone": "Asia/Yekaterinburg"
+    },
+    {
+      "admin1_id": 480508,
+      "admin1_name": {
+        "en": "Tul’skaya Oblast’",
+        "ru": "Тульская область"
+      },
+      "alternate_names": [
+        "Yasnogorsk",
+        "Ясногорск"
+      ],
+      "country": "RU",
+      "id": 468671,
+      "latitude": 54.48082,
+      "localized_name": {
+        "en": "Yasnogorsk",
+        "ru": "Ясногорск"
+      },
+      "longitude": 37.69854,
+      "name": "Ясногорск",
+      "population": 18022,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 524894,
+      "admin1_name": {
+        "en": "Moscow",
+        "ru": "Москва"
+      },
+      "alternate_names": [
+        "Ясенево"
+      ],
+      "country": "RU",
+      "id": 468809,
+      "latitude": 55.60686,
+      "localized_name": {
+        "en": "Yasenevo",
+        "ru": "Ясенево"
+      },
+      "longitude": 37.51991,
+      "name": "Ясенево",
+      "population": 180000,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 491684,
+      "admin1_name": {
+        "en": "Smolenskaya Oblast’",
+        "ru": "Смоленская область"
+      },
+      "alternate_names": [
+        "Yartsevo",
+        "Ярцево"
+      ],
+      "country": "RU",
+      "id": 468866,
+      "latitude": 55.06667,
+      "localized_name": {
+        "en": "Yartsevo",
+        "ru": "Ярцево"
+      },
+      "longitude": 32.69639,
+      "name": "Ярцево",
+      "population": 52706,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 468898,
+      "admin1_name": {
+        "en": "Yaroslavskaya Oblast’",
+        "ru": "Ярославская область"
+      },
+      "alternate_names": [
+        "Yaroslavl",
+        "Ярославль",
+        "Jarosław"
+      ],
+      "country": "RU",
+      "id": 468902,
+      "latitude": 57.62987,
+      "localized_name": {
+        "be": "Яраслаўль",
+        "en": "Yaroslavl",
+        "pl": "Jarosław",
+        "ru": "Ярославль"
+      },
+      "longitude": 39.87368,
+      "name": "Ярославль",
+      "population": 606730,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 536199,
+      "admin1_name": {
+        "en": "Leningradskaya Oblast'",
+        "ru": "Ленинградская област\u044c"
+      },
+      "alternate_names": [
+        "Яросла́вичи"
+      ],
+      "country": "RU",
+      "id": 468921,
+      "latitude": 60.49275,
+      "localized_name": {
+        "en": "Yaroslavichi",
+        "ru": "Яросла́вичи"
+      },
+      "longitude": 34.50806,
+      "name": "Яросла́вичи",
+      "population": 200,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 548389,
+      "admin1_name": {
+        "en": "Kirovskaya Oblast’",
+        "ru": "Кировская область"
+      },
+      "alternate_names": [
+        "Yaransk",
+        "Яранск"
+      ],
+      "country": "RU",
+      "id": 469005,
+      "latitude": 57.30331,
+      "localized_name": {
+        "en": "Yaransk",
+        "ru": "Яранск"
+      },
+      "longitude": 47.88611,
+      "name": "Яранск",
+      "population": 19557,
+      "timezone": "Europe/Kirov"
+    },
+    {
+      "admin1_id": 578853,
+      "admin1_name": {
+        "en": "Bashkortostan Republic",
+        "ru": "Башкортостан"
+      },
+      "alternate_names": [
+        "Yanaul",
+        "Янаул"
+      ],
+      "country": "RU",
+      "id": 469178,
+      "latitude": 56.2751,
+      "localized_name": {
+        "en": "Yanaul",
+        "ru": "Янаул"
+      },
+      "longitude": 54.9338,
+      "name": "Янаул",
+      "population": 27963,
+      "timezone": "Asia/Yekaterinburg"
+    },
+    {
+      "admin1_id": 524925,
+      "admin1_name": {
+        "be": "Маскоўская вобласць",
+        "en": "Moscow Oblast",
+        "pl": "Obwód moskiewski",
+        "ru": "Московская область"
+      },
+      "alternate_names": [
+        "Yakhroma",
+        "Яхрома"
+      ],
+      "country": "RU",
+      "id": 469655,
+      "latitude": 56.3,
+      "localized_name": {
+        "en": "Yakhroma",
+        "ru": "Яхрома"
+      },
+      "longitude": 37.48333,
+      "name": "Яхрома",
+      "population": 12666,
+      "timezone": "Europe/Moscow"
+    },
+    {
+      "admin1_id": 581043,
+      "admin1_name": {
+        "en": "Arkhangelskaya oblast",
+        "ru": "Архангельская область"
+      },
+      "alternate_names": [
+        "Ягры"
+      ],
+      "country": "RU",
+      "id": 469707,
+      "latitude": 64.59417,
+      "localized_name": {
+        "en": "Yagry",
+        "ru": "Ягры"
+      },
+      "longitude": 39.81028,
+      "name": "Ягры",
+      "population": 40000,
+      "timezone": "Europe/Moscow"
+    }
+  ]
+}
