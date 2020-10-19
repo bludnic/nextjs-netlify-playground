@@ -175,7 +175,7 @@ collections:
     files:
       - name: cities
         label: GeoCities
-        file: "geo_cities.json"
+        file: "meta/geo_cities.json"
         label_singular: "GeoCity"
         widget: list
         fields:
@@ -198,7 +198,7 @@ collections:
     files:
       - name: cities
         label: RosbiletCities
-        file: "rosbilet_cities.json"
+        file: "meta/rosbilet_cities.json"
         label_singular: "RosbiletCity"
         widget: list
         fields:
