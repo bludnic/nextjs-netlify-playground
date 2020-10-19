@@ -58,8 +58,6 @@ collections:
             label_singular: "City"
             summary: "{{fields.name}}"
             widget: list
-            min: 10
-            max: 50
             fields:
               - label: "ID"
                 name: "id"
@@ -113,11 +111,11 @@ collections:
                 widget: relation
                 collection: "meta"
                 file: "geo_cities"
-                searchFields:
+                search_fields:
                   - "cities.*.name"
-                displayFields:
+                display_fields:
                   - "cities.*.name"
-                valueField: "cities.*.id"
+                value_field: "cities.*.id"
       - name: "cities"
         label: "Cities"
         file: "meta/cities.yml"
@@ -204,18 +202,18 @@ collections:
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD"
-        dateFormat: "YYYY-MM-DD"
-        timeFormat: false
+        date_format: "YYYY-MM-DD"
+        time_format: false
       - label: Author
         name: "author"
         widget: relation
         collection: "meta"
         file: "authors"
-        searchFields:
+        search_fields:
           - "authors.*.name"
-        displayFields:
+        display_fields:
           - "authors.*.name"
-        valueField: "authors.*.slug"
+        value_field: "authors.*.slug"
       - label: Tags
         label_singular: "Tag"
         name: "tags"
@@ -227,11 +225,11 @@ collections:
           widget: relation
           collection: "meta"
           file: "tags"
-          searchFields:
+          search_fields:
             - "tags.*.name"
-          displayFields:
+          display_fields:
             - "tags.*.name"
-          valueField: "tags.*.slug"
+          value_field: "tags.*.slug"
       - label: "Body"
         name: "body"
         widget: "markdown"
