@@ -1,0 +1,5 @@
+cities:
+  - id: 0
+    countryCode: BY
+    city: Minsk
+    timezone: Europe/Minsk
