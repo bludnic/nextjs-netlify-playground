@@ -9,6 +9,11 @@
       "supplier": "Supplier2",
       "name": "Name2",
       "geo_id": 554234
+    },
+    {
+      "supplier": "Hi",
+      "name": "Hello",
+      "geo_id": 461910
     }
   ]
 }
