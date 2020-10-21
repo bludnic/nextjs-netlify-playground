@@ -115,15 +115,15 @@ collections:
                   - "cities.*.name"
                 value_field: "cities.*.id"
               - label: SupplierID
-                  name: "supplier_id"
-                  widget: relation
-                  collection: "meta"
-                  file: "rosbilet_cities"
-                  search_fields:
-                    - "cities.*.name"
-                  display_fields:
-                    - "cities.*.name"
-                  value_field: "cities.*.id"
+                name: "supplier_id"
+                widget: relation
+                collection: "meta"
+                file: "rosbilet_cities"
+                search_fields:
+                  - "cities.*.name"
+                display_fields:
+                  - "cities.*.name"
+                value_field: "cities.*.id"
       - name: "authors"
         label: "Authors"
         file: "meta/authors.yml"
