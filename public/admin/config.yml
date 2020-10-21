@@ -53,7 +53,7 @@ collections:
       preview: false
     files:
       - name: "geo_cities"
-        label: "Geo cities"
+        label: "Геобаза"
         file: "meta/geo_cities.json"
         description: "List of cities"
         fields:
@@ -73,7 +73,7 @@ collections:
                 name: "timezone"
                 widget: "string"
       - name: "rosbilet_cities"
-        label: "Rosbilet cities"
+        label: "Росбилет города"
         file: "meta/rosbilet_cities.json"
         description: "List of cities"
         fields:
@@ -95,7 +95,7 @@ collections:
                 name: "timezone"
                 widget: "string"
       - name: "rosbilet_matching"
-        label: "Rosbilet Matching"
+        label: "Росбилет матчинг"
         file: "meta/rosbilet.json"
         description: "Rosbilet Matching description"
         fields:
@@ -104,12 +104,6 @@ collections:
             summary: "{{fields.geo_id}}"
             widget: list
             fields:
-              - label: "Supplier"
-                name: "supplier"
-                widget: "string"
-              - label: "Name"
-                name: "name"
-                widget: "string"
               - label: GeoID
                 name: "geo_id"
                 widget: relation
@@ -120,32 +114,16 @@ collections:
                 display_fields:
                   - "cities.*.name"
                 value_field: "cities.*.id"
-      - name: "cities"
-        label: "Cities"
-        file: "meta/cities.yml"
-        description: "Atlas cities"
-        fields:
-          - name: cities
-            label: Cities
-            label_singular: "City"
-            widget: list
-            fields:
-              - label: "ID"
-                name: "id"
-                widget: "number"
-                hint: "ID города"
-              - label: "Country code"
-                name: "countryCode"
-                widget: "string"
-                hint: "Код страны"
-              - label: "City"
-                name: "city"
-                widget: "string"
-                hint: "Имя города"
-              - label: "Timezone"
-                name: "timezone"
-                widget: "string"
-                hint: "Таймзона"
+              - label: SupplierID
+                  name: "supplier_id"
+                  widget: relation
+                  collection: "meta"
+                  file: "rosbilet_cities"
+                  search_fields:
+                    - "cities.*.name"
+                  display_fields:
+                    - "cities.*.name"
+                  value_field: "cities.*.id"
       - name: "authors"
         label: "Authors"
         file: "meta/authors.yml"
