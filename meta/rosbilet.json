@@ -1,10 +1,16 @@
 {
   "matching": [
     {
-      "geo_id": 524901
+      "supplier": "Supplier1",
+      "name": "Name1",
+      "geo_id": 524901,
+      "supplier_id": 465057
     },
     {
-      "geo_id": 554234
+      "supplier": "Supplier2",
+      "name": "Name2",
+      "geo_id": 554234,
+      "supplier_id": 466885
     }
   ]
 }
