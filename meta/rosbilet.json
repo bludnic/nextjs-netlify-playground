@@ -11,6 +11,10 @@
       "name": "Name2",
       "geo_id": 554234,
       "supplier_id": 466885
+    },
+    {
+      "supplier_id": 466990,
+      "geo_id": 466990
     }
   ]
 }
